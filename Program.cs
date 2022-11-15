@@ -8,7 +8,8 @@
                 "Press 1 : Fibonacci Series\n" +
                 "Press 2 : Perfect Number\n" +
                 "Press 3 : Prime Number\n" +
-                "Press 4 : Reverse a Number\n");
+                "Press 4 : Reverse a Number\n" +
+                "Press 5 : Coupon Numbers Generator\n");
             int switchOptions=Convert.ToInt32(Console.ReadLine());
             switch (switchOptions)
             {
@@ -23,6 +24,9 @@
                     break;
                 case 4:
                     ReverseNumber4.ReverseNumber();
+                    break;
+                case 5:
+                    CouponNoGenerator5.CouponNoGenerator();
                     break;
                 default:
                     Console.WriteLine("Invalid Option entered!");
