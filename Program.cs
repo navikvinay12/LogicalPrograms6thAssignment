@@ -9,7 +9,8 @@
                 "Press 2 : Perfect Number\n" +
                 "Press 3 : Prime Number\n" +
                 "Press 4 : Reverse a Number\n" +
-                "Press 5 : Coupon Numbers Generator\n");
+                "Press 5 : Coupon Numbers Generator\n" +
+                "Press 6 : StopWatch Program");
             int switchOptions=Convert.ToInt32(Console.ReadLine());
             switch (switchOptions)
             {
@@ -27,6 +28,9 @@
                     break;
                 case 5:
                     CouponNoGenerator5.CouponNoGenerator();
+                    break;
+                case 6:
+                    StopWatch6.StopWatch();
                     break;
                 default:
                     Console.WriteLine("Invalid Option entered!");
